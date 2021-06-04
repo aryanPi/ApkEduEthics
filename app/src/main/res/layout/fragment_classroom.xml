@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MAIN_CLASSROOM"
+    android:padding="12dp"
+    android:background="@color/BackGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ClassroomStudentFragment">
+
+
+    <TextView
+        android:id="@+id/temp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today_s_schedule"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="04 May 2021"
+        android:textColor="@color/hintColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp1" />
+
+    <Button
+        android:id="@+id/viewTimeTable"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_btn"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:paddingHorizontal="8dp"
+        android:text="@string/view_timetable"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/noSch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_blocks_12dp"
+        android:padding="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        app:layout_constraintDimensionRatio="2:0.9"
+        app:layout_constraintTop_toBottomOf="@+id/date">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/temp5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/ic_calendar2"
+                app:layout_constraintBottom_toTopOf="@+id/temp3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/temp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="No Classes Scheduled"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/temp5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scheduleRecycler"
+        android:paddingHorizontal="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/noSch"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+
+    <TextView
+        android:id="@+id/temp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/classrooms"
+        android:textColor="@color/darkgrey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scheduleRecycler" />
+
+
+    <TextView
+        android:id="@+id/countClassroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/darkgrey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/temp9"
+        app:layout_constraintTop_toBottomOf="@+id/scheduleRecycler" />
+
+
+    <TextView
+        android:id="@+id/todayData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#94FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temp9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/temp9" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewClassroom_Classroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:padding="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/countClassroom" />
+
+
+    <TextView
+        android:id="@+id/temp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/enter_the_classroom_id_shared_by_your_teacher"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerviewClassroom_Classroom" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/temp4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:hint="@string/classroom_id"
+        android:paddingHorizontal="16dp"
+        android:textColorHint="@color/hintColor"
+        android:visibility="gone"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/mainCustomPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/temp16">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enrollID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/enrole_Classroom"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/circularbluebordersolid"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:text="@string/enrole_classroom"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/inviteTeacher"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/circularbluebordersolid"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:text="@string/invite_teacher"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include layout="@layout/empty_layout" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/noEnroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="countClassroom,temp9,date,recyclerviewClassroom_Classroom,noSch,viewTimeTable,todayData,temp1,scheduleRecycler"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/yesEnroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="temp4,temp16,inviteTeacher"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

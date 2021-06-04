@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MAIN_CREATECLASSROOM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround"
+    android:padding="16dp"
+    tools:context=".Fragments.TeacherFragments.CreateClassroomFragment">
+
+    <TextView
+        android:id="@+id/titletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/proximanovaregular"
+        android:gravity="center"
+        android:text="@string/create_classroom"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/mainCustomPrimary"
+        app:layout_constraintEnd_toEndOf="@id/titletxt"
+        app:layout_constraintStart_toStartOf="@+id/titletxt"
+        app:layout_constraintTop_toBottomOf="@id/titletxt" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/temp1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:hint="@string/classroom"
+        android:textColorHint="@color/hintColor"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/mainCustomPrimary"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/classroomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/temp2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:gravity="center"
+        android:hint="@string/subject"
+        android:textColorHint="@color/hintColor"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/mainCustomPrimary"
+        app:layout_constraintTop_toBottomOf="@id/temp1"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/subjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/temp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/classroom_type"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp2" />
+
+    <View
+        android:layout_width="32dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/mainCustomPrimary"
+        app:layout_constraintStart_toStartOf="@+id/temp3"
+        app:layout_constraintTop_toBottomOf="@+id/temp3" />
+
+    <RadioGroup
+        android:id="@+id/classroomtypeRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/temp3">
+
+        <RadioButton
+            android:id="@+id/tutionRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:textColor="@color/black"
+            android:text="@string/tution_coaching_class"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/schoolRadio"
+            android:layout_width="match_parent"
+            android:layout_margin="2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/school_college_class"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/otherRadio"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/hobby_other_class"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/circularbluebordersolid"
+        android:fontFamily="@font/proximanovaregular"
+        android:padding="12dp"
+        android:text="@string/continue_"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6F000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progressBackgroundTint="@color/mainCustomPrimary"
+            android:progressBackgroundTintMode="add"
+            android:progressDrawable="@color/mainCustomPrimary"
+            android:progressTint="@color/mainCustomPrimary"
+            android:progressTintMode="add"
+            android:secondaryProgressTint="@color/mainCustomPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

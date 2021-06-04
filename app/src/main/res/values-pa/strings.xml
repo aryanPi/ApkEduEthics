@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ਵਿਦਿਅਕ</string>
+
+
+    <string name="close">ਨੇੜੇ</string>
+    <string name="open">ਖੁੱਲਾ</string>
+
+
+    <string name="hello_blank_fragment">ਹੈਲੋ ਖਾਲੀ ਭਾਗ</string>
+    <string name="next">ਅਗਲਾ</string>
+    <string name="fee">ਫੀਸ</string>
+    <string name="about_instructor">ਇੰਸਟ੍ਰਕਟਰ ਬਾਰੇ</string>
+    <string name="attachment_type">ਅਟੈਚਮੈਂਟ ਦੀ ਕਿਸਮ</string>
+    <string name="image">ਚਿੱਤਰ</string>
+    <string name="pdf_file">PDF ਫਾਈਲ</string>
+    <string name="camera">ਕੈਮਰਾ</string>
+    <string name="url">ਯੂਆਰਐਲ</string>
+    <string name="upload_test">ਅਪਲੋਡ ਟੈਸਟ</string>
+    <string name="type">ਕਿਸਮ</string>
+    <string name="delete">ਮਿਟਾਓ</string>
+    <string name="timetable">ਸਮਾਂ ਸਾਰਣੀ</string>
+    <string name="calandar">ਕੈਲੰਡਰ</string>
+    <string name="edit">ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="hypen">-</string>
+    <string name="call">ਕਾਲ ਕਰੋ</string>
+    <string name="todo">ਕਰਨਾ</string>
+    <string name="partnerKey">"dYAolb460413f808d4944abecea57ee19ae5d"</string>
+    <string name="select">ਚੁਣੋ</string>
+    <string name="event_name">ਘਟਨਾ ਦਾ ਨਾਮ</string>
+    <string name="select_classroom">ਕਲਾਸਰੂਮ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="amount_received">ਰਕਮ ਪ੍ਰਾਪਤ ਹੋਈ</string>
+    <string name="continue_">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="Rs">₹</string>
+    <string name="transaction_date">ਲੈਣ-ਦੇਣ ਦੀ ਮਿਤੀ</string>
+    <string name="topic">ਵਿਸ਼ਾ:</string>
+    <string name="max_marks">ਅਧਿਕਤਮ ਅੰਕ:</string>
+    <string name="submission_deadline">ਅਧੀਨਗੀ ਦੀ ਆਖਰੀ ਮਿਤੀ:</string>
+    <string name="attachments">ਅਟੈਚਮੈਂਟ:</string>
+    <string name="add_attachment">ਅਟੈਚਮੈਂਟ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="solution">ਦਾ ਹੱਲ :</string>
+    <string name="feedback">ਸੁਝਾਅ :</string>
+    <string name="score">ਸਕੋਰ</string>
+    <string name="submit">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="submission">ਅਧੀਨਗੀ:</string>
+    <string name="save_and_update">ਸੇਵ ਅਤੇ ਅਪਡੇਟ</string>
+    <string name="delete_account">ਖਾਤਾ ਮਿਟਾਓ</string>
+    <string name="number">ਗਿਣਤੀ</string>
+    <string name="CLASS">ਕਲਾਸ</string>
+    <string name="parent_mobile_number">ਪੇਰੈਂਟ ਮੋਬਾਈਲ ਨੰਬਰ</string>
+    <string name="name">ਨਾਮ</string>
+    <string name="download">ਡਾ .ਨਲੋਡ</string>
+
+
+
+
+
+
+    <string name="agora_app_id">8477503fdc4f466a8c744a7d61c9617a</string>
+
+
+    <string name="agora_access_token">006de45ef48e8704bc495bb6832f690663fIACdebQHV1QWOpIGSfdLarghQbcSprY /ZfInvg2YwdWpG5GEi44AAAAAEAA7EFxE7S2oYAEAAQDsLahLahLahl</string>
+
+    <string-array name="encryption_mode_values">
+        <item>ਏਈਐਸ -128-ਐਕਸਟੀਐਸ</item>
+        <item>ਏਈਐਸ-256-ਐਕਸਟੀਐਸ</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="string_array_bit_rate">
+        <item>80</item>
+        // 120P
+        <item>160</item>
+        // 180P
+        <item>200</item>
+        // 240P
+        <item>400</item>
+        // 360P
+        <item>500</item>
+        // 480P
+        <item>1000</item>
+        // 720P
+    </string-array>
+
+    <string name="legal_channel_name_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!</string>
+
+
+    <string name="label_settings">ਸੈਟਿੰਗਜ਼</string>
+
+    <string name="msg_welcome_message">ਓਪਨ ਵੀਡੀਓ ਕਾਲ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ</string>
+
+    <string name="label_channel_name_hint">ਚੈਨਲ ਦਾ ਨਾਮ</string>
+
+    <string name="label_encryption_key_hint">ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ</string>
+
+    <string name="label_join">ਜੁੜੋ</string>
+
+    <string name="label_do_network_test">ਆਪਣੇ ਨੈਟਵਰਕ ਦੀ ਜਾਂਚ ਕਰੋ</string>
+
+    <string name="label_confirm">ਪੁਸ਼ਟੀ ਕਰੋ</string>
+
+    <string name="label_send">ਭੇਜੋ</string>
+
+    <string name="label_options">ਚੋਣਾਂ</string>
+    <string name="label_network_testing">ਟੈਸਟਿੰਗ …</string>
+    <string name="label_network_testing_placeholder">-</string>
+    <string name="label_network_test_result">ਟੈਸਟ ਦੇ ਨਤੀਜੇ</string>
+
+    <string name="label_debug">ਡੀਬੱਗ</string>
+    <string name="label_quality">ਗੁਣ</string>
+    <string name="label_rtt">ਆਰ.ਟੀ.ਟੀ.</string>
+    <string name="label_uplink_packet_loss">ਅਪਲਿੰਕ ਪੈਕੇਟ ਦਾ ਨੁਕਸਾਨ</string>
+    <string name="label_downlink_packet_loss">ਡਾlਨਲਿੰਕ ਪੈਕੇਟ ਦਾ ਨੁਕਸਾਨ</string>
+
+    <string name="msg_say_something">ਕੁੱਝ ਕਹੋ…</string>
+
+    <string name="msg_connection_error">ਕਨੈਕਸ਼ਨ ਗਲਤੀ, ਕਿਰਪਾ ਕਰਕੇ ਨੈਟਵਰਕ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰੋ ਜਾਂ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਚੈਨਲ ਦਾ ਨਾਮ /ਐਕਸੈਸ ਟੋਕਨ ਯੋਗ ਹੈ</string>
+
+    <string name="label_title_resolution">ਮਤਾ</string>
+    <string name="label_title_frame_rate">ਫਰੇਮ ਰੇਟ (fps)</string>
+
+    // DO NOT TRANSLATE
+    <string name="bit_rate_value_with_unit">%d + ਕੇਬੀਪੀਐਸ</string>
+    <string name="frame_rate_value_with_unit">%d + fps</string>
+    <string name="scan_qr_code">ਸਕੈਨ QR ਕੋਡ</string>
+    <string name="pata_login_web">ਆਪਣੇ ਕੰਪਿ computerਟਰ \'ਤੇ XXX.XXX.XX.XX: XXXX\' ਤੇ ਜਾ ਕੇ ਕਿਯੂਆਰ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ ਅਤੇ ਐਜੂਥਿਕਸ ਦੀ ਵਰਤੋਂ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="add_solution">ਹੱਲ ਸ਼ਾਮਲ ਕਰੋ?</string>
+    <string name="want_to_add_solution">ਕੀ ਤੁਸੀਂ ਹੱਲ ਜੋੜਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="para_add_sol">ਇਹ ਸਮਾਂ ਸੀਮਾ ਪਾਸ ਹੋਣ ਤੋਂ ਬਾਅਦ ਹੀ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਦਿਖਾਈ ਦੇਵੇਗੀ.</string>
+    <string name="skip">ਛੱਡੋ</string>
+    <string name="view_submission">ਅਧੀਨਗੀ ਵੇਖੋ</string>
+    <string name="add_edit_solution">ਹੱਲ ਸ਼ਾਮਲ /ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="not_received">ਪ੍ਰਾਪਤ ਨਹੀ ਕੀਤਾ</string>
+    <string name="approve">ਮਨਜ਼ੂਰ</string>
+    <string name="amount">ਦੀ ਰਕਮ :</string>
+    <string name="date">ਤਾਰੀਖ਼ :</string>
+    <string name="transaction_status">ਲੈਣ-ਦੇਣ ਦੀ ਸਥਿਤੀ:</string>
+    <string name="mode">ਮੋਡ:</string>
+    <string name="description">ਵੇਰਵਾ:</string>
+    <string name="student_fee">ਵਿਦਿਆਰਥੀ ਫੀਸ</string>
+    <string name="student_fee_per_month">ਵਿਦਿਆਰਥੀ ਫੀਸ (ਪ੍ਰਤੀ ਮਹੀਨਾ)</string>
+    <string name="done">ਹੋ ਗਿਆ</string>
+    <string name="received">ਪ੍ਰਾਪਤ ਹੋਇਆ</string>
+    <string name="adv_due">ਐਡ /ਬਕਾਇਆ</string>
+    <string name="details">ਵੇਰਵਾ</string>
+    <string name="cash">ਨਕਦ</string>
+    <string name="other_online">ਹੋਰ .ਨਲਾਈਨ</string>
+    <string name="create">ਬਣਾਓ</string>
+    <string name="monthly">ਮਾਸਿਕ</string>
+    <string name="course_fee">ਕੋਰਸ ਫੀਸ</string>
+    <string name="classroom_fee_per_month">ਕਲਾਸਰੂਮ ਫੀਸ (ਪ੍ਰਤੀ ਮਹੀਨਾ)</string>
+    <string name="upcoming_reminder_dates">ਆਉਣ ਵਾਲੀਆਂ ਰੀਮਾਈਂਡਰ ਦੀਆਂ ਤਾਰੀਖਾਂ</string>
+    <string name="this_will_be_visible_to_students_only_after_the_deadline_is_passed">ਇਹ ਸਮਾਂ ਸੀਮਾ ਦੇ ਪਾਸ ਹੋਣ ਤੋਂ ਬਾਅਦ ਹੀ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਦਿਖਾਈ ਦੇਵੇਗੀ.</string>
+    <string name="maximum_12_files">* ਵੱਧ ਤੋਂ ਵੱਧ 12 ਫਾਈਲਾਂ</string>
+    <string name="save">ਸੇਵ</string>
+    <string name="today_s_schedule">ਅੱਜ ਦਾ ਸਮਾਂ</string>
+    <string name="view_timetable">ਸਮਾਂ ਸਾਰਣੀ ਵੇਖੋ</string>
+    <string name="no_classes_scheduled">ਕੋਈ ਕਲਾਸ ਤਹਿ ਨਹੀਂ ਹੈ</string>
+    <string name="classrooms">ਕਲਾਸਰੂਮ</string>
+    <string name="create_website">ਵੈੱਬਸਾਈਟ ਬਣਾਓ</string>
+    <string name="get_more_students">ਵਧੇਰੇ ਵਿਦਿਆਰਥੀ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="create_classroom">ਕਲਾਸਰੂਮ ਬਣਾਓ</string>
+    <string name="enrole_classroom">ਕਲਾਸਰੂਮ ਦਾਖਲ ਕਰੋ</string>
+    <string name="invite_teacher">ਅਧਿਆਪਕ ਨੂੰ ਸੱਦਾ</string>
+    <string name="classroom_id">ਕਲਾਸਰੂਮ ਦੀ ਆਈ.ਡੀ.</string>
+    <string name="enter_the_classroom_id_shared_by_your_teacher">ਆਪਣੇ ਅਧਿਆਪਕ ਦੁਆਰਾ ਸਾਂਝੀ ਕੀਤੀ ਕਲਾਸਰੂਮ ਦੀ ID ਦਾਖਲ ਕਰੋ</string>
+    <string name="type_message">ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ …</string>
+
+    <string name="description_">ਵੇਰਵਾ</string>
+    <string name="max_marks_">ਵੱਧ ਤੋਂ ਵੱਧ ਅੰਕ</string>
+    <string name="subject">ਵਿਸ਼ਾ</string>
+    <string name="classroom">ਕਲਾਸਰੂਮ</string>
+    <string name="classroom_type">ਕਲਾਸਰੂਮ ਦੀ ਕਿਸਮ</string>
+    <string name="tution_coaching_class">ਟਿutionਸ਼ਨ /ਕੋਚਿੰਗ ਕਲਾਸ</string>
+    <string name="school_college_class">ਸਕੂਲ /ਕਾਲਜ ਕਲਾਸ</string>
+    <string name="hobby_other_class">ਸ਼ੌਕ /ਹੋਰ ਕਲਾਸ</string>
+
+    <string name="choose_test_type">ਟੈਸਟ ਦੀ ਕਿਸਮ ਚੁਣੋ</string>
+    <string name="mcq">ਐਮ.ਸੀ.ਕਿ.</string>
+    <string name="subjective">ਵਿਅਕਤੀਗਤ</string>
+    <string name="test_duration_minutes">ਟੈਸਟ ਅੰਤਰਾਲ (ਮਿੰਟ)</string>
+    <string name="marks_per_correct">ਪ੍ਰਤੀ ਸਹੀ ਮਾਰਕ</string>
+    <string name="panalty_per_incorrent_answer">Panalty Per Incorrent ਜਵਾਬ</string>
+    <string name="sample_question_paper">ਨਮੂਨਾ ਪ੍ਰਸ਼ਨ ਪੱਤਰ</string>
+    <string name="score_the_test">ਟੈਸਟ ਸਕੋਰ</string>
+    <string name="classroom_fees">ਕਲਾਸਰੂਮ ਫੀਸ</string>
+    <string name="next_reminder">ਅਗਲਾ ਰੀਮਾਈਂਡਰ</string>
+    <string name="start_date">ਤਾਰੀਖ ਸ਼ੁਰੂ</string>
+    <string name="total_received">ਕੁੱਲ ਪ੍ਰਾਪਤ ਹੋਇਆ</string>
+    <string name="total_due">ਕੁੱਲ ਬਕਾਇਆ</string>
+    <string name="total_advance">ਕੁੱਲ ਐਡਵਾਂਸ</string>
+    <string name="start_collecting_fees">ਫੀਸਾਂ ਇਕੱਤਰ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="present_students">ਵਿਦਿਆਰਥੀ</string>
+    <string name="total_students">ਕੁੱਲ ਵਿਦਿਆਰਥੀ</string>
+    <string name="create_notice">ਨੋਟਿਸ ਬਣਾਓ</string>
+    <string name="msg_phone">ਅਸੀਂ ਤੁਹਾਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਇੱਕ ਐਸ ਐਮ ਐਸ ਸੰਦੇਸ਼ ਭੇਜਾਂਗੇ \nਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ</string>
+
+    <string name="student">ਵਿਦਿਆਰਥੀ</string>
+    <string name="teacher">ਅਧਿਆਪਕ</string>
+    <string name="class_">ਕਲਾਸ</string>
+
+    <string name="phone_number">ਫੋਨ ਨੰਬਰ</string>
+    <string name="we_will_send_you_an_sms_message_for_verification_n_kindly_enter_your_phone_number">ਅਸੀਂ ਤੁਹਾਨੂੰ ਤਸਦੀਕ ਕਰਨ ਲਈ ਇੱਕ ਐਸ ਐਮ ਐਸ ਸੰਦੇਸ਼ ਭੇਜਾਂਗੇ \\\nਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ</string>
+    <string name="having_trouble_with_login">ਲੌਗਇਨ ਨਾਲ ਸਮੱਸਿਆ ਹੋ ਰਹੀ ਹੈ?</string>
+    <string name="click_here">ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name="create_assignment">ਅਸਾਈਨਮੈਂਟ ਬਣਾਓ</string>
+    <string name="go_live_now">ਹੁਣੇ ਲਾਈਵ ਜਾਓ</string>
+    <string name="from">ਤੋਂ</string>
+    <string name="to">ਨੂੰ</string>
+    <string name="evaluate">ਪੜਤਾਲ</string>
+
+
+</resources>

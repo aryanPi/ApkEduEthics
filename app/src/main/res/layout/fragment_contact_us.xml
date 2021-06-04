@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ContactUsFragment">
+
+    <ImageView
+        android:id="@+id/t2"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/edu"
+        app:layout_constraintBottom_toTopOf="@+id/t"
+        app:layout_constraintEnd_toStartOf="@+id/t1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/t2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/t2"
+        app:layout_constraintTop_toTopOf="@+id/t2" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2">
+
+
+        <ImageView
+            android:id="@+id/t43"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_phone"
+            android:backgroundTint="@color/mainCustomPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/t43"
+            app:layout_constraintStart_toEndOf="@+id/t43"
+            app:layout_constraintTop_toTopOf="@+id/t43" />
+
+
+        <ImageView
+            android:id="@+id/t41"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_whatsapp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t43" />
+
+        <TextView
+            android:id="@+id/num2"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/t41"
+            app:layout_constraintStart_toEndOf="@+id/t41"
+            app:layout_constraintTop_toTopOf="@+id/t41" />
+
+
+        <ImageView
+            android:id="@+id/t42"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_at"
+            android:backgroundTint="@color/mainCustomPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t41" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/t42"
+            app:layout_constraintStart_toEndOf="@+id/t42"
+            app:layout_constraintTop_toTopOf="@+id/t42" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/actionBarTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="-"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toolbarImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/toggleStudentAndParent"
+        android:layout_width="0dp"
+        android:visibility="gone"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_inverted"
+        app:layout_constraintBottom_toBottomOf="@+id/actionBarTitle"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/notiToolbar"
+        app:layout_constraintTop_toTopOf="@+id/actionBarTitle" />
+
+
+    <ImageView
+        android:id="@+id/webLoginToolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_computer"
+        app:layout_constraintBottom_toBottomOf="@+id/actionBarTitle"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/toolbarImage"
+        app:layout_constraintTop_toTopOf="@+id/actionBarTitle" />
+
+    <ImageView
+        android:id="@+id/toolbarImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_filter"
+        app:layout_constraintBottom_toBottomOf="@+id/actionBarTitle"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/toggleStudentAndParent"
+        app:layout_constraintTop_toTopOf="@+id/actionBarTitle" />
+
+    <ImageView
+        android:id="@+id/notiToolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_notification"
+        app:layout_constraintBottom_toBottomOf="@+id/actionBarTitle"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/actionBarTitle" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headlingDialogList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/student_fee"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="64dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="7dp"
+            android:background="@color/mainCustomPrimary" />
+
+
+        <EditText
+            android:id="@+id/studentFeeDialogText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_selector"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:paddingHorizontal="10dp"
+            android:hint="@string/student_fee_per_month"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_rupee"
+            android:autofillHints=""
+            android:singleLine="true"
+            android:lines="1"
+            android:inputType="number" />
+
+
+
+        <LinearLayout
+            android:gravity="end"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:text="@string/cancel"
+                android:textAllCaps="true"
+                android:textColor="@color/mainCustomPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textColor="@color/mainCustomPrimary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

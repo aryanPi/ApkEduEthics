@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">Edu Ethics</string>
+
+
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="fee">Fee</string>
+    <string name="about_instructor">About Instructor</string>
+    <string name="attachment_type">Attachment Type</string>
+    <string name="image">Image</string>
+    <string name="pdf_file">PDF file</string>
+    <string name="camera">Camera</string>
+    <string name="url">URL</string>
+    <string name="upload_test">Upload Test</string>
+    <string name="type">Type</string>
+    <string name="delete">Delete</string>
+    <string name="timetable">Timetable</string>
+    <string name="calandar">Calandar</string>
+    <string name="edit">Edit</string>
+    <string name="hypen">-</string>
+    <string name="call">call</string>
+    <string name="todo">TODO</string>
+    <string name="partnerKey">"dYAolb460413f808d4944abecea57ee19ae5d"</string>
+    <string name="select">Select</string>
+    <string name="event_name">Event Name</string>
+    <string name="select_classroom">Select Classroom</string>
+    <string name="amount_received">Amount Received</string>
+    <string name="continue_">Continue</string>
+    <string name="Rs">₹</string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="topic">Topic :</string>
+    <string name="max_marks">Max Marks :</string>
+    <string name="submission_deadline">Submission Deadline :</string>
+    <string name="attachments">Attachments :</string>
+    <string name="add_attachment">Add Attachment</string>
+    <string name="solution">Solution :</string>
+    <string name="feedback">Feedback :</string>
+    <string name="score">Score</string>
+    <string name="submit">Submit</string>
+    <string name="submission">Submission :</string>
+    <string name="save_and_update">Save And Update</string>
+    <string name="delete_account">delete account</string>
+    <string name="number">Number</string>
+    <string name="CLASS">Class</string>
+    <string name="parent_mobile_number">Parent Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="download">Download</string>
+
+
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <!-- For formal released project, please use Security Keys/Token
+        https://docs.agora.io/en/Video/token?platform=All%20Platforms -->
+    <string name="agora_app_id">8477503fdc4f466a8c744a7d61c9617a</string>
+    <!-- Please leave it if not enable App Certificate -->
+    <!-- You can generate a temporary token at https://dashboard.agora.io/projects -->
+    <string name="agora_access_token">006de45ef48e8704bc495bb6832f690663fIACdebQHV1QWOpIGSfdLarghQbcSprY/ZfInvg2YwdWpG5GEii4AAAAAEAA7EFxE7S2oYAEAAQDsLahg</string>
+
+    <string-array name="encryption_mode_values">
+        <item>AES-128-XTS</item>
+        <item>AES-256-XTS</item>
+    </string-array>
+
+    <string-array name="string_array_resolutions">
+        <item>160x120</item>
+        // 120P
+        <item>320x180</item>
+        // 180P
+        <item>320x240</item>
+        // 240P the default one
+        <item>640x360</item>
+        // 360P
+        <item>640x480</item>
+        // 480P
+        <item>1280x720</item>
+        // 720P
+    </string-array>
+
+    <string-array name="string_array_frame_rate">
+        <item>1</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        // the default one
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="string_array_bit_rate">
+        <item>80</item>
+        // 120P
+        <item>160</item>
+        // 180P
+        <item>200</item>
+        // 240P
+        <item>400</item>
+        // 360P
+        <item>500</item>
+        // 480P
+        <item>1000</item>
+        // 720P
+    </string-array>
+
+    <string name="legal_channel_name_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+
+
+    <string name="label_settings">Settings</string>
+
+    <string name="msg_welcome_message">Welcome to Open Video Call</string>
+
+    <string name="label_channel_name_hint">Channel name</string>
+
+    <string name="label_encryption_key_hint">Encryption key</string>
+
+    <string name="label_join">Join</string>
+
+    <string name="label_do_network_test">Test your network</string>
+
+    <string name="label_confirm">Confirm</string>
+
+    <string name="label_send">Send</string>
+
+    <string name="label_options">Options</string>
+    <string name="label_network_testing">Testing…</string>
+    <string name="label_network_testing_placeholder">-</string>
+    <string name="label_network_test_result">Test Result</string>
+
+    <string name="label_debug">Debug</string>
+    <string name="label_quality">Quality</string>
+    <string name="label_rtt">RTT</string>
+    <string name="label_uplink_packet_loss">Uplink Packet Loss</string>
+    <string name="label_downlink_packet_loss">Downlink Packet Loss</string>
+
+    <string name="msg_say_something">Say something…</string>
+
+    <string name="msg_connection_error">Connection error, please check the network settings or make sure channel name/access token are valid</string>
+
+    <string name="label_title_resolution">Resolution</string>
+    <string name="label_title_frame_rate">Frame Rate(fps)</string>
+
+    // DO NOT TRANSLATE
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="pata_login_web">Scan the QR code by going to XXX.XXX.XX.XX:XXXX on your computer and start using Eduethics</string>
+    <string name="add_solution">Add Solution?</string>
+    <string name="want_to_add_solution">Do you want to adds solution?</string>
+    <string name="para_add_sol">This will be visible to students only after deadline is passed.</string>
+    <string name="skip">Skip</string>
+    <string name="view_submission">View Submission</string>
+    <string name="add_edit_solution">Add/Edit Solution</string>
+    <string name="cancel">Cancel</string>
+    <string name="not_received">Not Received</string>
+    <string name="approve">Approve</string>
+    <string name="amount">Amount :</string>
+    <string name="date">Date :</string>
+    <string name="transaction_status">Transaction Status :</string>
+    <string name="mode">Mode :</string>
+    <string name="description">Description :</string>
+    <string name="student_fee">Student Fee</string>
+    <string name="student_fee_per_month">Student Fee (per month)</string>
+    <string name="done">Done</string>
+    <string name="received">Received</string>
+    <string name="adv_due">Adv/Due</string>
+    <string name="details">Details</string>
+    <string name="cash">Cash</string>
+    <string name="other_online">Other Online</string>
+    <string name="create">create</string>
+    <string name="monthly">Monthly</string>
+    <string name="course_fee">Course Fee</string>
+    <string name="classroom_fee_per_month">Classroom Fee (per month)</string>
+    <string name="upcoming_reminder_dates">Upcoming Reminder dates</string>
+    <string name="this_will_be_visible_to_students_only_after_the_deadline_is_passed">This will be visible to students only after the deadline is passed.</string>
+    <string name="maximum_12_files">* Maximum 12 files</string>
+    <string name="save">Save</string>
+    <string name="today_s_schedule">Today\'s Schedule</string>
+    <string name="view_timetable">View Timetable</string>
+    <string name="no_classes_scheduled">No Classes Scheduled</string>
+    <string name="classrooms">Classrooms</string>
+    <string name="create_website">Create Website</string>
+    <string name="get_more_students">Get More Students</string>
+    <string name="create_classroom">Create Classroom</string>
+    <string name="enrole_classroom">enrole classroom</string>
+    <string name="invite_teacher">invite Teacher</string>
+    <string name="classroom_id">Classroom id</string>
+    <string name="enter_the_classroom_id_shared_by_your_teacher">Enter the Classroom ID shared by your teacher</string>
+    <string name="type_message">Type message...</string>
+
+    <string name="description_">Description</string>
+    <string name="max_marks_">Max Marks</string>
+    <string name="subject">Subject</string>
+    <string name="classroom">Classroom</string>
+    <string name="classroom_type">Classroom Type</string>
+    <string name="tution_coaching_class">Tution/Coaching Class</string>
+    <string name="school_college_class">School/College Class</string>
+    <string name="hobby_other_class">Hobby/Other Class</string>
+
+    <string name="choose_test_type">Choose Test Type</string>
+    <string name="mcq">MCQ</string>
+    <string name="subjective">Subjective</string>
+    <string name="test_duration_minutes">Test Duration (Minutes)</string>
+    <string name="marks_per_correct">Marks Per Correct</string>
+    <string name="panalty_per_incorrent_answer">Panalty Per Incorrent Answer</string>
+    <string name="sample_question_paper">Sample Question Paper</string>
+    <string name="score_the_test">Score the test</string>
+    <string name="classroom_fees">Classroom Fees</string>
+    <string name="next_reminder">Next Reminder</string>
+    <string name="start_date">Start Date</string>
+    <string name="total_received">Total Received</string>
+    <string name="total_due">Total Due</string>
+    <string name="total_advance">Total Advance</string>
+    <string name="start_collecting_fees">Start collecting fees</string>
+    <string name="present_students">Present Students</string>
+    <string name="total_students">Total Students</string>
+    <string name="create_notice">Create Notice</string>
+    <string name="msg_phone">We will send you an SMS message for verification \n Kindly enter your phone Number</string>
+
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="class_">Class</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="we_will_send_you_an_sms_message_for_verification_n_kindly_enter_your_phone_number">We will send you an SMS message for verification \\\n Kindly enter your phone Number</string>
+    <string name="having_trouble_with_login">Having trouble with login ?</string>
+    <string name="click_here">Click here</string>
+    <string name="create_assignment">Create Assignment</string>
+    <string name="go_live_now">Go live now</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="evaluate">Evaluate</string>
+</resources>
